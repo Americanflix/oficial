@@ -1,0 +1,59 @@
+/*
+ Theme Name:   Torofilm Child
+ Theme URI:    https://torothemes.com/
+ Description:  Torofilm Child Theme
+ Author:       Torofilm
+ Author URI:   https://torothemes.com/
+ Template:     torofilm
+ Version:      1.2.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         Torofilm child theme
+ Text Domain:  torofilm
+*/
+
+
+/* Home page */
+.home-search .logo img{height:3rem}
+.search input{border-radius:0.3rem}
+.home-search form>input{height:3.5rem}
+.home-search form>.btn{line-height:2.65rem;font-size:1.4rem}
+.parc-sts h5{margin-bottom:10px}
+#menu-item-17611 {background-color: #009b53; border-radius: 4px; padding: 0px 25px;}
+#menu-item-17611 a {color: #dcd80d; font-weight: bolder;}
+
+/* M/S page */
+.post.dfx.fcl.movies .entry-meta {display: none} 
+#aa-wp .hd .logo a img {height:1.9rem}
+.tag.fa-tag {display: none}
+.comment-alert {background-color: var(--light-1);border-radius: .2rem;backdrop-filter: blur(20px);padding: 1.4rem;margin-bottom: 2.5rem;}
+.server {font-style: italic;}
+.sinop-box {background-color: rgb(77 172 228 / 47%);border-radius: 0.2rem;padding: 1.4rem}
+.mb-10 span:nth-child(n) {padding: 0.5rem 1.0rem}
+.ft .logo {margin-bottom:0}
+.views.fa-eye.far {display: none}
+#aa-options div a img {z-index: 1;object-fit: cover;height: 100%;}
+
+/* Request page */
+.entry-meta .date {display: none}
+.single-news .entry-content {margin-top: 1.5rem}
+.single-news .entry-header {border-top: solid 2px #c74d4d}
+.single-news .post-thumbnail {margin-bottom: 1.5rem}
+.single-news .entry-title {margin-top: 4.0rem}
+.dspNone {display: none !important;}
+
+@media (min-width:992px) {
+.video:before{content:'';display:block;padding-top:72.55%}
+.video-options ul{margin-right: 5.1rem;}}
+
+@media (min-width:1200px){
+.cl4d,.rcl4d>*{-ms-flex:0 0 calc(100%/7);-webkit-box-flex:0;flex:0 0 calc(100%/7);max-width:calc(100%/7)}
+.home-search .logo img {margin-top: 50px}
+.bghd, .bgft {max-height: 65vh}
+#menu .rw  {margin-left: 1rem}}
+
+@media (min-width:1400px){
+.video-options {width: 320px;}
+.video-player {width: calc(100% - 320px - 2rem);}
+.video-options ul{margin-right: 6.4rem;}
+.video{max-height:40rem;}
