@@ -1,0 +1,12 @@
+.preload{
+    position: fixed;
+    z-index:99999;
+    top:0; left:0;
+    width:100%; height:100%;
+    opacity:1;
+    background-color:#000;
+    background-image:url('https://cdn.dribbble.com/users/2019005/screenshots/5508560/404-page.gif');
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
+.preload {display:none;}
