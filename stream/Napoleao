@@ -1,0 +1,74 @@
+<!-- preloader -->
+<div id="preload" class="preload"></div>
+<script src="https://Americanflix.github.io/oficial/preloader.css"></script>
+<link rel="stylesheet" href="https://Americanflix.github.io/oficial/preloader.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://alex2017s.github.io/Americanflix/basico.css" type="text/css" media="all" />
+<!-- fim do preloader -->
+
+<!--(c) adarsh-goel-->
+<!--DOCTYPE html-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://i.ibb.co/M8S0Zzj/live-streaming.png" itemprop="thumbnailUrl">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type='text/css' href="https://drive----google.com/uc?export=view&id=1pVLG4gZy7jdow3sO-wFS06aP_A9QX0O6">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />           									 
+<style>
+      body {
+         background-color: black;
+      }
+      footer {
+         color: white;
+      }
+      marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: Blue;
+      font-family: sans-serif;
+      }
+    </style>
+    <style>
+      marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: Blue;
+      font-family: sans-serif;
+      }
+      footer{display:none;}
+    </style>
+</head>
+<body>	
+    <div class="container">
+        <video src="https://developerr-bots.xyz/AgAD_A151788" class="player"></video>
+    </div>
+    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+	<script>
+        const controls = [
+              'play-large',
+            'rewind','play', 
+            'fast-forward', 
+            'progress', 
+            'current-time',
+            'duration',
+            'mute',
+            'volume',
+            'captions',
+            'settings',
+            'pip',
+            'airplay',
+            '',
+            'fullscreen'
+            ];
+        document.addEventListener('DOMContentLoaded', () => {
+            const player = Plyr.setup('.player', { controls });
+        });
+        const body = document.querySelector('body');
+        const footer = document.querySelector('footer');
+        const toogle = document.querySelector('.toogle');
+    </script>
+</body>
