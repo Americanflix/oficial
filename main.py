@@ -37,7 +37,6 @@ FANART_DIR = os.path.join(ADDON_PATH, 'resources', 'images', 'fanart')
 # Here we use a hardcoded list of movies simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some website or online service.
-<datadir zip="true">https://raw.githubusercontent.com/Americanflix/oficial/refs/heads/main/main.py</datadir>
 VIDEOS = [
     {
         'genre': 'popular',
